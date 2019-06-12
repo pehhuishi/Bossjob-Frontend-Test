@@ -1,0 +1,48 @@
+.borderline{
+  border: 1px solid #E5E6E7;
+}
+.job{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.job .company{
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+.job .company .title{
+  float: left;
+  width: 70%;
+  font-weight: bold;
+}
+.job .company .pay{
+  float: left;
+  width: 30%;
+}
+.job .desc{
+  margin-bottom: 5%;
+}
+.job .desc .desc1, .job .desc .desc2{
+  width: 80%;
+  padding-bottom:30px;
+}
+.job .desc .desc1 span, .job .desc .desc2 span{
+  width: 40%;
+  float: left;
+}
+.job .agent {
+  clear: both;
+  margin-bottom: 5%;
+}
+.job .agent .logo{
+  float: left;
+  width: 70%;
+}
+.job .agent .time{
+  width: 20%;
+  color: #CACBCC;
+  font-size: 12px;
+}
