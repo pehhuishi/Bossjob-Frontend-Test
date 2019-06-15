@@ -8,7 +8,7 @@
   background-color: #F8F9FA;
 }
 .search input{
-  width:90%;
+  width:80%;
   margin: 0 auto;
   border-top: none;
   border-left: none;
@@ -16,6 +16,8 @@
   padding-bottom: 20px; 
   background: #F8F9FA;
   font-weight: bold;
+  padding-left:30px;
+  outline: none;
 }
 .search button{
   margin-top: 8%; 

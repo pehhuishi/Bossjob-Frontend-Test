@@ -1,45 +1,57 @@
 .borderline{
   border: 1px solid #E5E6E7;
 }
+.jobContainer{
+  margin-top: 2%;
+}
+.numOfJob{
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 20px;
+}
 .job{
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 16px;
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
 }
 .job .company{
-  margin-top: 5%;
-  margin-bottom: 15%;
+  margin-top: 6%;
+  margin-bottom: 18%;
 }
 .job .company .title{
   float: left;
-  width: 70%;
+  width: 65%;
   font-weight: bold;
 }
 .job .company .pay{
-  float: left;
-  width: 30%;
+  float: right;
+  width: 33%;
+  font-size: 14px;
 }
 .job .desc{
   margin-bottom: 5%;
 }
 .job .desc .desc1, .job .desc .desc2{
   width: 80%;
-  padding-bottom:30px;
+  padding-bottom:35px;
+  font-size: 14px;
+  clear: both;
 }
 .job .desc .desc1 span, .job .desc .desc2 span{
-  width: 40%;
+  width: 45%;
   float: left;
+  padding-right: 2%;
 }
 .job .agent {
   clear: both;
-  margin-bottom: 5%;
+  margin-bottom: 8%;
 }
 .job .agent .logo{
   float: left;
-  width: 70%;
+  width: 68%;
+  font-size: 14px;
 }
 .job .agent .time{
   width: 20%;
